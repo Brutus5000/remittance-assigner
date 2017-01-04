@@ -1,0 +1,16 @@
+## Directory-based project format:
+#.idea/
+# if you remove the above rule, at least ignore the following:
+
+# Package Files #
+*.jar
+
+### Gradle template
+.gradle
+build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Included binaries
+!src/main/native/*

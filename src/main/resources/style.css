@@ -1,0 +1,7 @@
+.awesome > .text {
+    -fx-font-family: "FontAwesome";
+}
+
+.money {
+    -fx-alignment: center-right;
+}
